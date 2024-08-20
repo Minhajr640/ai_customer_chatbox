@@ -31,14 +31,14 @@ export default function Home() {
       p={2}
       spacing={3}
       >
-        <stack 
+        <Stack 
           direction="column"
           spacing={2}
           flexGrow={1}
           overflow="auto"
           maxHeight="100%"
         >
-          {messages.map((messages, index) => (
+          {messages.map((message, index) => (
               <Box 
               key = {index} 
               display = 'flex' 
@@ -60,7 +60,7 @@ export default function Home() {
               </Box>
             </Box>
           ))}
-        </stack> 
+        </Stack> 
       </Stack>
     </Box>
   )
