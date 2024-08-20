@@ -1,5 +1,5 @@
 'use client'
-import { Short_Stack } from "next/font/google";
+import {Box, Stack } from '@mui/material';
 import Image from "next/image";
 import {useState} from 'react'
 
